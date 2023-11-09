@@ -2,7 +2,7 @@
 
 Bem-vindo ao Preditor de Tipo de Flor Iris, uma aplicação web que utiliza técnicas avançadas de aprendizado de máquina para prever o tipo da flor Iris com base em características específicas. Desenvolvido com o framework Streamlit e a biblioteca scikit-learn, este aplicativo oferece uma interface amigável para usuários explorarem e entenderem melhor o processo de classificação.
 
-<img src="streamli_app.png"/>
+<img src="streamlit_app.png"/>
 
 ## Funcionalidades Principais
 
