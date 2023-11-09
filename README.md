@@ -43,6 +43,8 @@ pred_prob = clf.predict_proba(df)
 
 - Os resultados são apresentados de maneira clara e compreensível. O aplicativo exibe não apenas as previsões do modelo, mas também fornece informações sobre as probabilidades associadas a cada previsão. Além disso, são mostrados os nomes das classes e seus índices correspondentes, proporcionando um contexto mais rico.
 
+<img src="results.png"/>
+
 ## Instruções de Uso
 
 ### Instalação de Dependências
