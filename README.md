@@ -9,6 +9,19 @@ Bem-vindo ao Preditor de Tipo de Flor Iris, uma aplicação web que utiliza téc
 ### Entrada de Parâmetros do Usuário
 
 - O aplicativo permite que os usuários ajustem os parâmetros da flor Iris, incluindo comprimento e largura da sépala e pétala, através de controles deslizantes na barra lateral. Isso proporciona uma experiência interativa e intuitiva.
+```python
+def user_input():
+    sepal_length = st.sidebar.slider('Comprimento da sétala', 4.3, 7.9, 5.4)
+    sepal_width = st.sidebar.slider('Largura da sétala', 2.0, 4.4, 3.4)
+    petal_length = st.sidebar.slider('Comprimento da pétala', 1.0, 6.9, 1.3)
+    petal_width = st.sidebar.slider('Largura da pétala', 0.1, 2.5, 0.2)
+    dados = {'Comprimento da sétala': sepal_length,
+             'Largura da sétala': sepal_width,
+             'Comprimento da pétala': petal_length,
+             'Largura da pétala': petal_width}
+    features = pd.DataFrame(dados, index=[0])
+    return features
+```
 
 ### Modelo de Machine Learning
 
