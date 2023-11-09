@@ -28,6 +28,15 @@ df = user_input()
 
 - Utilizando um sofisticado classificador RandomForest treinado com o conjunto de dados padrão Iris, o aplicativo realiza previsões precisas com base nos parâmetros fornecidos pelo usuário.
 ```python
+iris = datasets.load_iris()
+x = iris.data
+y = iris.target
+
+clf = RandomForestClassifier()
+clf.fit(x, y)
+
+pred = clf.predict(df)
+pred_prob = clf.predict_proba(df)
 ```
 
 ### Apresentação de Resultados
