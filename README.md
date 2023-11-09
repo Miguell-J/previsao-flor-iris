@@ -21,11 +21,14 @@ def user_input():
              'Largura da pétala': petal_width}
     features = pd.DataFrame(dados, index=[0])
     return features
+df = user_input()
 ```
 
 ### Modelo de Machine Learning
 
 - Utilizando um sofisticado classificador RandomForest treinado com o conjunto de dados padrão Iris, o aplicativo realiza previsões precisas com base nos parâmetros fornecidos pelo usuário.
+```python
+```
 
 ### Apresentação de Resultados
 
